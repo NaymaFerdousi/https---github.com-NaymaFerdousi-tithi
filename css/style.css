@@ -1,0 +1,31 @@
+#myclass{
+    margin: 0;
+    background: linear-gradient(to right,white 20%, rgb(167, 226, 216)100%);
+    height: 100vh;
+    text-align: center;
+    color:#fff;
+}
+#contact {
+  height: auto;
+  width: 100%;
+}
+
+.contact-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-details li {
+  padding-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#contact textarea {
+  min-height: 160px;
+}
